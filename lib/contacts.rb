@@ -1,6 +1,4 @@
-require 'pry'
-
-  # This is the array we will be passing into the remove_strawberry method
+ # This is the array we will be passing into the remove_strawberry method
   # contacts = {
   #   "Jon Snow" => {
   #     name: "Jon",
@@ -22,4 +20,5 @@ def remove_strawberry(contacts)
           data.delete_if {|ice_cream| ice_cream == "strawberry"}
         end 
     end 
-  end
+  end 
+end
